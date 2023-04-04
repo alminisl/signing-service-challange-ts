@@ -1,4 +1,17 @@
-### Curl request for testing
+# Instal and Start
+
+`pnpm install`
+
+Then run the project by writing:
+
+`pnpm run dev`
+
+# Tests
+
+To run tests just run:
+` pnpm run test`
+
+# Curl request for testing
 
 - Creating a new Device:
 
