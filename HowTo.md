@@ -9,7 +9,7 @@ Then run the project by writing:
 # Tests
 
 To run tests just run:
-` pnpm run test`
+`pnpm run test`
 
 # Curl request for testing
 
@@ -38,7 +38,7 @@ curl -X POST \
 - Sign transaction
 
 ```bash
-      curl -X POST http://localhost:3000/signTransaction/1  -H 'Content-Type: application/json'  -d '{ "data": "Hello, RSA!"}'
+curl -X POST http://localhost:3000/signTransaction/1  -H 'Content-Type: application/json'  -d '{ "data": "Hello, RSA!"}'
 ```
 
 - List all devices
