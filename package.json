@@ -4,7 +4,7 @@
   "description": "fiskaly coding challenge to build a signing service",
   "main": "",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "test:watch": "jest --watch",
     "build": "tsc -p tsconfig.json",
     "dev": "ts-node-dev --respawn src/index.ts",
@@ -25,6 +25,7 @@
     "@types/express": "^4.17.13",
     "@types/jest": "^29.5.0",
     "@types/node": "^17.0.21",
+    "install": "^0.13.0",
     "jest": "^29.5.0",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.7.0",
